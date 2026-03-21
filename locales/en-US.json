@@ -1,0 +1,47 @@
+﻿{
+  "MainWindow.Title": "AIMLauncher",
+  "MainWindow.Loading": "Loading...",
+  "MainWindow.OpenSettings": "Open Settings",
+  "MainWindow.OpenDownloads": "Open Downloads",
+  "MainWindow.SearchPlaceholder": "Search games...",
+  "MainWindow.Refresh": "Refresh",
+  "MainWindow.HideToTray": "Hide to tray",
+  "MainWindow.Exit": "Exit",
+
+  "Settings.Title": "Settings",
+  "Settings.Language": "Language",
+  "Settings.Theme": "Theme",
+  "Settings.EnableTray": "Enable system tray icon",
+  "Settings.CloseBehavior": "When closing launcher",
+  "Settings.CloseBehavior.Hide": "Minimize to tray",
+  "Settings.CloseBehavior.Exit": "Exit launcher",
+  "Settings.Save": "Save",
+
+  "InstallQueue.Title": "Install Queue",
+  "InstallQueue.Empty": "No active downloads.",
+  "InstallQueue.PauseAll": "Pause all",
+  "InstallQueue.ResumeAll": "Resume all",
+  "InstallQueue.Cancel": "Cancel",
+
+  "Notifications.UpdateAvailable.Title": "Launcher update available",
+  "Notifications.UpdateAvailable.Body": "A new launcher update is available.",
+  "Notifications.SpecialInstall.Started": "Special install started.",
+  "Notifications.SpecialInstall.Completed": "Special install completed.",
+  "Notifications.SpecialInstall.Failed": "Special install failed.",
+  "Notifications.SentToTray.Title": "AIMLauncher is in tray",
+  "Notifications.SentToTray.Body": "The launcher is still running. Use the tray icon to reopen it.",
+
+  "Dialogs.ConfirmExit.Title": "Exit launcher?",
+  "Dialogs.ConfirmExit.Message": "Active downloads will be paused.",
+  "Dialogs.Confirm": "Confirm",
+  "Dialogs.Cancel": "Cancel",
+
+  "Errors.Generic": "Something went wrong.",
+  "Errors.Network": "Network error. Please try again.",
+  "Errors.Auth": "Authentication failed.",
+
+  "Buttons.Ok": "OK",
+  "Buttons.Close": "Close",
+  "Buttons.Apply": "Apply",
+  "Buttons.Retry": "Retry"
+}

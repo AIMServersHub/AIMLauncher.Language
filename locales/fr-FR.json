@@ -1,0 +1,47 @@
+﻿{
+  "MainWindow.Title": "AIMLauncher",
+  "MainWindow.Loading": "Chargement...",
+  "MainWindow.OpenSettings": "Ouvrir les parametres",
+  "MainWindow.OpenDownloads": "Ouvrir les telechargements",
+  "MainWindow.SearchPlaceholder": "Rechercher des jeux...",
+  "MainWindow.Refresh": "Actualiser",
+  "MainWindow.HideToTray": "Reduire dans la barre systeme",
+  "MainWindow.Exit": "Quitter",
+
+  "Settings.Title": "Parametres",
+  "Settings.Language": "Langue",
+  "Settings.Theme": "Theme",
+  "Settings.EnableTray": "Activer l'icone de barre systeme",
+  "Settings.CloseBehavior": "Lors de la fermeture du launcher",
+  "Settings.CloseBehavior.Hide": "Reduire dans la barre systeme",
+  "Settings.CloseBehavior.Exit": "Quitter le launcher",
+  "Settings.Save": "Enregistrer",
+
+  "InstallQueue.Title": "File d'installation",
+  "InstallQueue.Empty": "Aucun telechargement actif.",
+  "InstallQueue.PauseAll": "Tout mettre en pause",
+  "InstallQueue.ResumeAll": "Tout reprendre",
+  "InstallQueue.Cancel": "Annuler",
+
+  "Notifications.UpdateAvailable.Title": "Mise a jour du launcher disponible",
+  "Notifications.UpdateAvailable.Body": "Une nouvelle mise a jour du launcher est disponible.",
+  "Notifications.SpecialInstall.Started": "Installation speciale demarree.",
+  "Notifications.SpecialInstall.Completed": "Installation speciale terminee.",
+  "Notifications.SpecialInstall.Failed": "Echec de l'installation speciale.",
+  "Notifications.SentToTray.Title": "AIMLauncher est dans la barre systeme",
+  "Notifications.SentToTray.Body": "Le launcher fonctionne toujours. Utilisez l'icone de barre systeme pour le rouvrir.",
+
+  "Dialogs.ConfirmExit.Title": "Quitter le launcher ?",
+  "Dialogs.ConfirmExit.Message": "Les telechargements actifs seront mis en pause.",
+  "Dialogs.Confirm": "Confirmer",
+  "Dialogs.Cancel": "Annuler",
+
+  "Errors.Generic": "Une erreur est survenue.",
+  "Errors.Network": "Erreur reseau. Veuillez reessayer.",
+  "Errors.Auth": "Echec de l'authentification.",
+
+  "Buttons.Ok": "OK",
+  "Buttons.Close": "Fermer",
+  "Buttons.Apply": "Appliquer",
+  "Buttons.Retry": "Reessayer"
+}
