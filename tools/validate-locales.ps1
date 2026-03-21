@@ -5,8 +5,18 @@ $repo = Split-Path -Parent $root
 $enPath = Join-Path $repo "locales/en-US.json"
 $frPath = Join-Path $repo "locales/fr-FR.json"
 
-$en = Get-Content $enPath -Raw | ConvertFrom-Json -AsHashtable
-$fr = Get-Content $frPath -Raw | ConvertFrom-Json -AsHashtable
+$enObject = Get-Content $enPath -Raw | ConvertFrom-Json
+$frObject = Get-Content $frPath -Raw | ConvertFrom-Json
+
+$en = @{}
+foreach ($prop in $enObject.PSObject.Properties) {
+  $en[$prop.Name] = [string]$prop.Value
+}
+
+$fr = @{}
+foreach ($prop in $frObject.PSObject.Properties) {
+  $fr[$prop.Name] = [string]$prop.Value
+}
 
 $missingInFr = @($en.Keys | Where-Object { -not $fr.ContainsKey($_) })
 $extraInFr = @($fr.Keys | Where-Object { -not $en.ContainsKey($_) })
