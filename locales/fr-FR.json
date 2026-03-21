@@ -246,6 +246,8 @@
   "Vm.Viewmodels.Windows.MainwindowviewmodelGameinstallqueue.Return.Game": "Jeu",
   "Vm.Viewmodels.Windows.MainwindowviewmodelGameinstallqueue.StatusMessage.CheckingNfswModsBeforeLaunch": "Checking NFSW mods before launch...",
   "Vm.Viewmodels.Windows.MainwindowviewmodelGameinstallqueue.StatusMessage.CouldNotCreateGameFolderExMessage": "Impossible de créer le dossier du jeu : {ex.Message}",
+  "Vm.Viewmodels.Windows.MainwindowviewmodelGameinstallqueue.StatusMessage.LoadedGamesCount": "{gamesCount} jeux chargés.",
+  "Vm.Viewmodels.Windows.MainwindowviewmodelGameinstallqueue.StatusMessage.NoGamesFoundInAssetsGamesJson": "Aucun jeu trouvé dans Assets/games.json.",
   "Vm.Viewmodels.Windows.MainwindowviewmodelGameinstallqueue.StatusMessage.FailedToLoadGamesExMessage": "Échec du chargement des jeux : {ex.Message}",
   "Vm.Viewmodels.Windows.MainwindowviewmodelGameinstallqueue.StatusMessage.FailedToLoginToNfswEmptyResponse": "Échec de la connexion à NFSW : réponse vide.",
   "Vm.Viewmodels.Windows.MainwindowviewmodelGameinstallqueue.StatusMessage.FailedToLoginToNfswExMessage": "Échec de la connexion à NFSW : {ex.Message}",
